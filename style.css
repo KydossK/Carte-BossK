@@ -19,11 +19,6 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-header .colonne span {
-    font-weight: 500;
-    margin-right: 15px;
-    font-size: 1.19rem;
-}
 #Photo {
     width: 86px;
     border-radius: 50%;

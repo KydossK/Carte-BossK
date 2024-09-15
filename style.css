@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #e3f2fd;
+}
+.carte {
+    width: 400px;
+    border : 4px solid #000000;
+    border-radius: 20px; ;
+    padding: 55px 55px;
+    background-image: linear-gradient(rgba(33, 171, 162, 0.345), rgba(16, 7, 185, 0.3)),
+    url("https://img.freepik.com/photos-gratuite/fond-hyperespace-3d-effet-tunnel-chaine_1048-12526.jpg?t=st=1726425821~exp=1726429421~hmac=23c0f7edd8919e040e87daa300aacea14e269fce7e2987183f9a250014956107&w=1060");
+}
+.carte header {
+    color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .colonne span {
+    font-weight: 500;
+    margin-right: 15px;
+    font-size: 1.19rem;
+}
+#Photo {
+    width: 86px;
+    border-radius: 50%;
+    border : 4px solid #01b1bb;
+}
+#infos{
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-weight: bold;
+    text-decoration: underline rgb(197, 197, 197);
+}
+.liste{
+    font-style: italic;
+}
